@@ -1,5 +1,22 @@
-.container img {
-position: absolute;
-    top: 15%;
-    max-width: 90%;
+
+.background-main {
+    background-color: #1F2427;
 }
+.container .main-img {
+  position: absolute;
+  top: 15%;
+  max-width: 90%; -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+.menu-showing {
+    display: none;
+    width: -webkit-fill-available;
+    margin-top: 25px;
+}
+.carousel {
+    margin-top: 15px;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotateY(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotateY(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotateY(360deg); transform:rotateY(360deg); } }
