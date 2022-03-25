@@ -1,0 +1,5 @@
+.container img {
+position: absolute;
+    top: 15%;
+    max-width: 90%;
+}
