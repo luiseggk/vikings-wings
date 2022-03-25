@@ -15,7 +15,7 @@
     margin-top: 25px;
 }
 .carousel {
-    margin-top: 15px;
+    margin-top: 15%;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotateY(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotateY(360deg); } }
